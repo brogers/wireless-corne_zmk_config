@@ -2,12 +2,12 @@
 # Additionally, you should enable the display feature in 'config/blecorne.conf'.
 ---
 include:
-  - board: blecorne_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    shield: nice_view
-  - board: blecorne_right
-    shield: nice_view
+  # - board: blecorne_left
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   shield: nice_view
+  # - board: blecorne_right
+  #   shield: nice_view
 
   # Uncomment the following to build a "settings reset" firmware
   # to clear persistent settings (bluetooth connections, etc).
