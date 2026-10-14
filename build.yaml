@@ -6,7 +6,7 @@ include:
   # work keyboards get separate left builds with their own names (max 16 chars).
   - board: blecorne_left
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y '-DCONFIG_ZMK_KEYBOARD_NAME="Corne Black"
+    cmake-args: -DCONFIG_ZMK_STUDIO=y '-DCONFIG_ZMK_KEYBOARD_NAME="Corne Black"'
     shield: nice_view
     artifact-name: blecorne_left-home
   - board: blecorne_left
